@@ -10,8 +10,6 @@ Run this in the **Proxmox VE host shell** (as root):
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/jjmurdck19/proxmox-rocky-nginx/main/rocky-nginx.sh)"
 ```
 
-> Replace `YOUR_GITHUB_USER/proxmox-rocky-nginx` with your repository path (also in the header of `rocky-nginx.sh`).
-
 ## What it does
 
 1. Lets you choose the **Rocky Linux version** from the templates Proxmox currently offers (8, 9, 10 …) and downloads the template if needed.
